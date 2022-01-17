@@ -49,5 +49,11 @@ export default {
 
   server: {
     host: '0.0.0.0'
+  },
+
+  target: 'static',
+
+  generate: {
+    routes: ['/page/1']
   }
 }
